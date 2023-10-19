@@ -14,6 +14,11 @@
 		5EFE1D322AA21328004B4F7A /* Network_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D312AA21328004B4F7A /* Network_CalculatorTests.swift */; };
 		5EFE1D3C2AA21328004B4F7A /* Network_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D3B2AA21328004B4F7A /* Network_CalculatorUITests.swift */; };
 		5EFE1D3E2AA21328004B4F7A /* Network_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D3D2AA21328004B4F7A /* Network_CalculatorUITestsLaunchTests.swift */; };
+		5EFE1D4F2AA21434004B4F7A /* DataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D4E2AA21434004B4F7A /* DataInputView.swift */; };
+		5EFE1D512AA241BF004B4F7A /* MaskInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D502AA241BF004B4F7A /* MaskInputView.swift */; };
+		5EFE1D532AA24278004B4F7A /* IPAddressInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D522AA24278004B4F7A /* IPAddressInputView.swift */; };
+		5EFE1D552AA24AE7004B4F7A /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D542AA24AE7004B4F7A /* Calculations.swift */; };
+		5EFE1D982AA34BAE004B4F7A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE1D972AA34BAE004B4F7A /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		5EFE1D372AA21328004B4F7A /* Network CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFE1D3B2AA21328004B4F7A /* Network_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CalculatorUITests.swift; sourceTree = "<group>"; };
 		5EFE1D3D2AA21328004B4F7A /* Network_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EFE1D4E2AA21434004B4F7A /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
+		5EFE1D502AA241BF004B4F7A /* MaskInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskInputView.swift; sourceTree = "<group>"; };
+		5EFE1D522AA24278004B4F7A /* IPAddressInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddressInputView.swift; sourceTree = "<group>"; };
+		5EFE1D542AA24AE7004B4F7A /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		5EFE1D972AA34BAE004B4F7A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,11 @@
 		5EFE1D1F2AA21327004B4F7A /* Network Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5EFE1D4D2AA21363004B4F7A /* SupportFiles */,
+				5EFE1D4C2AA21355004B4F7A /* Model */,
+				5EFE1D4B2AA21343004B4F7A /* ModelView */,
+				5EFE1D4A2AA2133A004B4F7A /* View */,
 				5EFE1D202AA21327004B4F7A /* Network_CalculatorApp.swift */,
-				5EFE1D222AA21327004B4F7A /* ContentView.swift */,
 				5EFE1D242AA21328004B4F7A /* Assets.xcassets */,
 				5EFE1D262AA21328004B4F7A /* Preview Content */,
 			);
@@ -125,6 +138,40 @@
 				5EFE1D3D2AA21328004B4F7A /* Network_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "Network CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		5EFE1D4A2AA2133A004B4F7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE1D222AA21327004B4F7A /* ContentView.swift */,
+				5EFE1D4E2AA21434004B4F7A /* DataInputView.swift */,
+				5EFE1D502AA241BF004B4F7A /* MaskInputView.swift */,
+				5EFE1D522AA24278004B4F7A /* IPAddressInputView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EFE1D4B2AA21343004B4F7A /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE1D972AA34BAE004B4F7A /* DataController.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		5EFE1D4C2AA21355004B4F7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EFE1D4D2AA21363004B4F7A /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE1D542AA24AE7004B4F7A /* Calculations.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EFE1D982AA34BAE004B4F7A /* DataController.swift in Sources */,
 				5EFE1D232AA21327004B4F7A /* ContentView.swift in Sources */,
+				5EFE1D552AA24AE7004B4F7A /* Calculations.swift in Sources */,
+				5EFE1D512AA241BF004B4F7A /* MaskInputView.swift in Sources */,
+				5EFE1D532AA24278004B4F7A /* IPAddressInputView.swift in Sources */,
 				5EFE1D212AA21327004B4F7A /* Network_CalculatorApp.swift in Sources */,
+				5EFE1D4F2AA21434004B4F7A /* DataInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
