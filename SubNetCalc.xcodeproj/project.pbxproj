@@ -39,14 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5EFE1D1D2AA21327004B4F7A /* SubCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFE1D1D2AA21327004B4F7A /* SubNetCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubNetCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFE1D202AA21327004B4F7A /* Network_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CalculatorApp.swift; sourceTree = "<group>"; };
 		5EFE1D222AA21327004B4F7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EFE1D242AA21328004B4F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFE1D272AA21328004B4F7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5EFE1D2D2AA21328004B4F7A /* SubCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFE1D2D2AA21328004B4F7A /* SubNetCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubNetCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFE1D312AA21328004B4F7A /* Network_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CalculatorTests.swift; sourceTree = "<group>"; };
-		5EFE1D372AA21328004B4F7A /* SubCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFE1D372AA21328004B4F7A /* SubNetCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubNetCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFE1D3B2AA21328004B4F7A /* Network_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CalculatorUITests.swift; sourceTree = "<group>"; };
 		5EFE1D3D2AA21328004B4F7A /* Network_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5EFE1D4E2AA21434004B4F7A /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 		5EFE1D1E2AA21327004B4F7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EFE1D1D2AA21327004B4F7A /* SubCalc.app */,
-				5EFE1D2D2AA21328004B4F7A /* SubCalcTests.xctest */,
-				5EFE1D372AA21328004B4F7A /* SubCalcUITests.xctest */,
+				5EFE1D1D2AA21327004B4F7A /* SubNetCalc.app */,
+				5EFE1D2D2AA21328004B4F7A /* SubNetCalcTests.xctest */,
+				5EFE1D372AA21328004B4F7A /* SubNetCalcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EFE1D1C2AA21327004B4F7A /* SubCalc */ = {
+		5EFE1D1C2AA21327004B4F7A /* SubNetCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EFE1D412AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubCalc" */;
+			buildConfigurationList = 5EFE1D412AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubNetCalc" */;
 			buildPhases = (
 				5EFE1D192AA21327004B4F7A /* Sources */,
 				5EFE1D1A2AA21327004B4F7A /* Frameworks */,
@@ -181,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = SubCalc;
+			name = SubNetCalc;
 			productName = "Network Calculator";
-			productReference = 5EFE1D1D2AA21327004B4F7A /* SubCalc.app */;
+			productReference = 5EFE1D1D2AA21327004B4F7A /* SubNetCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5EFE1D2C2AA21328004B4F7A /* SubCalcTests */ = {
+		5EFE1D2C2AA21328004B4F7A /* SubNetCalcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EFE1D442AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubCalcTests" */;
+			buildConfigurationList = 5EFE1D442AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubNetCalcTests" */;
 			buildPhases = (
 				5EFE1D292AA21328004B4F7A /* Sources */,
 				5EFE1D2A2AA21328004B4F7A /* Frameworks */,
@@ -199,14 +199,14 @@
 			dependencies = (
 				5EFE1D2F2AA21328004B4F7A /* PBXTargetDependency */,
 			);
-			name = SubCalcTests;
+			name = SubNetCalcTests;
 			productName = "Network CalculatorTests";
-			productReference = 5EFE1D2D2AA21328004B4F7A /* SubCalcTests.xctest */;
+			productReference = 5EFE1D2D2AA21328004B4F7A /* SubNetCalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5EFE1D362AA21328004B4F7A /* SubCalcUITests */ = {
+		5EFE1D362AA21328004B4F7A /* SubNetCalcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EFE1D472AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubCalcUITests" */;
+			buildConfigurationList = 5EFE1D472AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubNetCalcUITests" */;
 			buildPhases = (
 				5EFE1D332AA21328004B4F7A /* Sources */,
 				5EFE1D342AA21328004B4F7A /* Frameworks */,
@@ -217,9 +217,9 @@
 			dependencies = (
 				5EFE1D392AA21328004B4F7A /* PBXTargetDependency */,
 			);
-			name = SubCalcUITests;
+			name = SubNetCalcUITests;
 			productName = "Network CalculatorUITests";
-			productReference = 5EFE1D372AA21328004B4F7A /* SubCalcUITests.xctest */;
+			productReference = 5EFE1D372AA21328004B4F7A /* SubNetCalcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EFE1D182AA21327004B4F7A /* Build configuration list for PBXProject "SubCalc" */;
+			buildConfigurationList = 5EFE1D182AA21327004B4F7A /* Build configuration list for PBXProject "SubNetCalc" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,9 +258,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EFE1D1C2AA21327004B4F7A /* SubCalc */,
-				5EFE1D2C2AA21328004B4F7A /* SubCalcTests */,
-				5EFE1D362AA21328004B4F7A /* SubCalcUITests */,
+				5EFE1D1C2AA21327004B4F7A /* SubNetCalc */,
+				5EFE1D2C2AA21328004B4F7A /* SubNetCalcTests */,
+				5EFE1D362AA21328004B4F7A /* SubNetCalcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		5EFE1D2F2AA21328004B4F7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EFE1D1C2AA21327004B4F7A /* SubCalc */;
+			target = 5EFE1D1C2AA21327004B4F7A /* SubNetCalc */;
 			targetProxy = 5EFE1D2E2AA21328004B4F7A /* PBXContainerItemProxy */;
 		};
 		5EFE1D392AA21328004B4F7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EFE1D1C2AA21327004B4F7A /* SubCalc */;
+			target = 5EFE1D1C2AA21327004B4F7A /* SubNetCalc */;
 			targetProxy = 5EFE1D382AA21328004B4F7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -529,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubCalc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubNetCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubNetCalc";
 			};
 			name = Debug;
 		};
@@ -549,7 +549,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubCalc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubNetCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubNetCalc";
 			};
 			name = Release;
 		};
@@ -592,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EFE1D182AA21327004B4F7A /* Build configuration list for PBXProject "SubCalc" */ = {
+		5EFE1D182AA21327004B4F7A /* Build configuration list for PBXProject "SubNetCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EFE1D3F2AA21328004B4F7A /* Debug */,
@@ -601,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EFE1D412AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubCalc" */ = {
+		5EFE1D412AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubNetCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EFE1D422AA21328004B4F7A /* Debug */,
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EFE1D442AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubCalcTests" */ = {
+		5EFE1D442AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubNetCalcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EFE1D452AA21328004B4F7A /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EFE1D472AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubCalcUITests" */ = {
+		5EFE1D472AA21328004B4F7A /* Build configuration list for PBXNativeTarget "SubNetCalcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EFE1D482AA21328004B4F7A /* Debug */,
