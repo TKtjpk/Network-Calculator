@@ -105,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				5EFE1D4D2AA21363004B4F7A /* SupportFiles */,
-				5EFE1D4C2AA21355004B4F7A /* Model */,
 				5EFE1D4B2AA21343004B4F7A /* ModelView */,
 				5EFE1D4A2AA2133A004B4F7A /* View */,
 				5EFE1D202AA21327004B4F7A /* Network_CalculatorApp.swift */,
@@ -157,13 +156,6 @@
 				5EFE1D972AA34BAE004B4F7A /* DataController.swift */,
 			);
 			path = ModelView;
-			sourceTree = "<group>";
-		};
-		5EFE1D4C2AA21355004B4F7A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		5EFE1D4D2AA21363004B4F7A /* SupportFiles */ = {
@@ -472,6 +464,7 @@
 				DEVELOPMENT_TEAM = KKCT26533X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -501,6 +494,7 @@
 				DEVELOPMENT_TEAM = KKCT26533X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
